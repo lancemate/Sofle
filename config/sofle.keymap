@@ -63,11 +63,11 @@
             //               | mo2 | alt  | SHF  | DEL  |  BSPC  |  | ENTER | SPACE|       |  0    |      |
 
             bindings = <
-&kp F1          &kp F2    &kp F3    &kp F4     &kp F5           &kp F6                                  &kp F7     &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
-&kp LGUI        &trans    &kp UP    &trans     &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                         &trans     &kp N1  &kp N2  &kp N3   &kp PG_UP  &kp PG_DN
-&kp LEFT_SHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI                         &trans     &kp N4  &kp N5  &kp N6   &kp HOME   &kp END
-&kp PSCRN       &trans    &trans    &trans     &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans      &trans     &trans     &kp N7  &kp N8  &kp N9   &trans     &trans
-                          &mo 2     &kp LALT   &kp LSHFT        &kp DEL          &kp BSPC    &kp ENTER  &kp SPACE  &trans  &kp N0  &trans
+&kp F1          &kp F2    &kp F3    &kp F4          &kp F5           &kp F6                                  &kp F7     &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&kp LGUI        &trans    &kp UP    &studio_unlock  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                         &trans     &kp N1  &kp N2  &kp N3   &kp PG_UP  &kp PG_DN
+&kp LEFT_SHIFT  &kp LEFT  &kp DOWN  &kp RIGHT       &rgb_ug RGB_HUD  &rgb_ug RGB_HUI                         &trans     &kp N4  &kp N5  &kp N6   &kp HOME   &kp END
+&kp PSCRN       &trans    &trans    &trans          &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans      &trans     &trans     &kp N7  &kp N8  &kp N9   &trans     &trans
+                          &mo 2     &kp LALT        &kp LSHFT        &kp DEL          &kp BSPC    &kp ENTER  &kp SPACE  &trans  &kp N0  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
